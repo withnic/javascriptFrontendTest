@@ -1,0 +1,28 @@
+{
+  "name": "javascriptFrontendTest",
+  "email": "authorsmailaddress",
+  "url": "http://blog.torisore.com",
+  "version": "0.0.1",
+  "description": "JavascriptFrontEnd Test Sample",
+  "private": true,
+  "devDependencies": {
+    "jquery":"^1.7.4",
+    "babel-plugin-espower": "^2.1.1",
+    "babelify": "7.2.0",
+    "karma": "^0.13.19",
+    "karma-browserify": "^5.0.1",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-sinon":"^1.0.4",
+    "karma-fixture": "^0.2.5",
+    "karma-mocha": "^0.2.1",
+    "karma-mocha-reporter": "^1.1.5",
+    "karma-html2js-preprocessor": "^0.1.0",
+    "power-assert": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=0.12"
+  },
+  "scripts": {
+    "test": "karma start --single-run"
+  }
+}
