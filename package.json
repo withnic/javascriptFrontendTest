@@ -6,30 +6,35 @@
   "description": "JavascriptFrontEnd Test Sample",
   "private": true,
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-plugin-espower": "3.0.x",
+    "@babel/core": "^7.4.5",
+    "babel-core": "^6.26.3",
+    "babel-plugin-espower": "^3.0.1",
     "babelify": "10.x",
-    "browserify": "^16.1.0",
+    "browserify": "^16.2.3",
     "html2js": "^0.2.0",
-    "jquery": "3.3.x",
-    "karma": "3.0.x",
-    "karma-browserify": "5.3.x",
+    "jquery": "^3.4.1",
+    "karma": "^4.1.0",
+    "karma-browserify": "6.0.x",
     "karma-chrome-launcher": "2.x",
     "karma-fixture": "0.2.6",
     "karma-html2js-preprocessor": "1.1.x",
     "karma-mocha": "1.3",
     "karma-mocha-reporter": "2.2.5",
     "karma-sinon": "1.0.5",
-    "karma-webpack": "^3.0.5",
-    "mocha": "^5.0.1",
+    "karma-webpack": "^4.0.2",
+    "mocha": "^6.1.4",
     "power-assert": "1.6.x",
-    "sinon": "^6.3.5",
-    "webpack": "^4.20.2"
+    "sinon": "^7.3.2",
+    "watchify": "^3.11.1",
+    "webpack": "^4.34.0"
   },
   "engines": {
     "node": ">=0.12"
   },
   "scripts": {
     "test": "karma start --single-run"
+  },
+  "dependencies": {
+    "help": "^3.0.2"
   }
 }
