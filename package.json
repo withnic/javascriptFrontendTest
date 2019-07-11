@@ -1,16 +1,16 @@
 {
   "name": "javascriptFrontendTest",
   "email": "authorsmailaddress",
-  "url": "http://blog.torisore.com",
+  "url": "http://blog.withnic.net",
   "version": "0.0.1",
   "description": "JavascriptFrontEnd Test Sample",
   "private": true,
   "devDependencies": {
-    "@babel/core": "^7.4.5",
+    "@babel/core": "^7.5.4",
     "babel-core": "^6.26.3",
     "babel-plugin-espower": "^3.0.1",
     "babelify": "10.x",
-    "browserify": "^16.2.3",
+    "browserify": "^16.3.0",
     "html2js": "^0.2.0",
     "jquery": "^3.4.1",
     "karma": "^4.1.0",
@@ -26,7 +26,7 @@
     "power-assert": "1.6.x",
     "sinon": "^7.3.2",
     "watchify": "^3.11.1",
-    "webpack": "^4.34.0"
+    "webpack": "^4.35.3"
   },
   "engines": {
     "node": ">=0.12"
